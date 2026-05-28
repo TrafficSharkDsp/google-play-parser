@@ -19,13 +19,21 @@ func App(ctx context.Context, client sh.HTTPClient, spec models.ApplicationSpec)
 
 	appURL := getURL(appsDetailsURL)
 
+	params := url.Values{
+		"id": []string{spec.AppID},
+	}
+
+	if spec.Country != "" {
+		params.Add("gl", spec.Country)
+	}
+
+	if spec.Lang != "" {
+		params.Add("hl", spec.Lang)
+	}
+
 	body, requestURL, err := request(ctx, client, requestSpec{
-		url: appURL,
-		params: url.Values{
-			"id": []string{spec.AppID},
-			"gl": []string{spec.Country},
-			"hl": []string{spec.Lang},
-		},
+		url:    appURL,
+		params: params,
 	})
 	if err != nil {
 		return models.App{}, err

@@ -90,8 +90,8 @@ type ApplicationSpec struct {
 }
 
 var defaultSimilarSpec = ApplicationSpec{
-	Lang:    "en",
-	Country: "us",
+	Lang:    "",
+	Country: "",
 }
 
 func (spec *ApplicationSpec) ensureNotNil() {
