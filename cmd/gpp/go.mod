@@ -3,7 +3,7 @@ module bots-house/gpp
 go 1.20
 
 require (
-	github.com/bots-house/google-play-parser v0.1.0
+	github.com/TrafficSharkDsp/google-play-parser v0.1.0
 	github.com/rs/zerolog v1.29.1
 	github.com/urfave/cli/v2 v2.25.1
 )
@@ -19,4 +19,4 @@ require (
 	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6 // indirect
 )
 
-replace github.com/bots-house/google-play-parser => ../../.
+replace github.com/TrafficSharkDsp/google-play-parser => ../../.

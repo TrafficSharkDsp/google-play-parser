@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/multierr"
 
-	"github.com/bots-house/google-play-parser/internal/shared"
-	"github.com/bots-house/google-play-parser/models"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/models"
 )
 
 func checkApp(app *App) error {

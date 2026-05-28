@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/bots-house/google-play-parser/internal/ramda"
-	"github.com/bots-house/google-play-parser/internal/shared"
-	"github.com/bots-house/google-play-parser/models"
-	sh "github.com/bots-house/google-play-parser/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/ramda"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/models"
+	sh "github.com/TrafficSharkDsp/google-play-parser/shared"
 )
 
 func Permissions(ctx context.Context, client sh.HTTPClient, spec models.ApplicationSpec) ([]models.Permission, error) {
@@ -134,7 +134,7 @@ func parseFullPermissions(data []any) ([]models.Permission, error) {
 
 			return shared.MapCheck(perms, func(entry any) (perm models.Permission, ok bool) {
 				perm.Type = typ
-				
+
 				summary, ok := ramda.Path([]any{1}, entry).(string)
 				if ok {
 					perm.Summary = summary

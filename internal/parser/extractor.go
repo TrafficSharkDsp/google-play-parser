@@ -5,8 +5,8 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bots-house/google-play-parser/internal/ramda"
-	"github.com/bots-house/google-play-parser/internal/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/ramda"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
 )
 
 func ExtractDataWithServiceRequestID(parsed shared.ParsedObject, spec shared.ParsedSpec) any {

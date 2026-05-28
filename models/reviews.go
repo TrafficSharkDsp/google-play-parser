@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/bots-house/google-play-parser/internal/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
 )
 
 type ReviewsSpec struct {

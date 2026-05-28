@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	gpp "github.com/bots-house/google-play-parser"
+	gpp "github.com/TrafficSharkDsp/google-play-parser"
 	"github.com/rs/zerolog/log"
 	"github.com/urfave/cli/v2"
 )

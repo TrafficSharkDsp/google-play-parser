@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/bots-house/google-play-parser/internal/ramda"
-	"github.com/bots-house/google-play-parser/internal/shared"
-	sh "github.com/bots-house/google-play-parser/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/ramda"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
+	sh "github.com/TrafficSharkDsp/google-play-parser/shared"
 )
 
 func getURL(path string) string {

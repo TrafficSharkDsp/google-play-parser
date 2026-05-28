@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bots-house/google-play-parser/internal/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
 )
 
 func Parse(data []byte) (*shared.ParsedObject, error) {

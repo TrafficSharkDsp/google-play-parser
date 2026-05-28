@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/bots-house/google-play-parser/internal/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
 )
 
 type App struct {

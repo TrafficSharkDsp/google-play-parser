@@ -1,4 +1,4 @@
-module github.com/bots-house/google-play-parser
+module github.com/TrafficSharkDsp/google-play-parser
 
 go 1.20
 
@@ -17,5 +17,3 @@ require (
 	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace bots-house/gpp => ./cmd/gpp

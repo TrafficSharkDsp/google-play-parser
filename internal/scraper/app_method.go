@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bots-house/google-play-parser/internal/parser"
-	"github.com/bots-house/google-play-parser/models"
-	sh "github.com/bots-house/google-play-parser/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/parser"
+	"github.com/TrafficSharkDsp/google-play-parser/models"
+	sh "github.com/TrafficSharkDsp/google-play-parser/shared"
 )
 
 func App(ctx context.Context, client sh.HTTPClient, spec models.ApplicationSpec) (models.App, error) {

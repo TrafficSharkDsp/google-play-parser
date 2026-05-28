@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/bots-house/google-play-parser/internal/scraper"
-	"github.com/bots-house/google-play-parser/internal/shared"
-	"github.com/bots-house/google-play-parser/models"
-	sh "github.com/bots-house/google-play-parser/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/scraper"
+	"github.com/TrafficSharkDsp/google-play-parser/internal/shared"
+	"github.com/TrafficSharkDsp/google-play-parser/models"
+	sh "github.com/TrafficSharkDsp/google-play-parser/shared"
 )
 
 type collector struct {

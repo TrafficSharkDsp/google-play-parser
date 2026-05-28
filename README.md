@@ -22,7 +22,7 @@ import (
     "context"
     "log"
 
-    gpp "github.com/bots-house/google-play-parser"
+    gpp "github.com/TrafficSharkDsp/google-play-parser"
 )
 
 func main() {
