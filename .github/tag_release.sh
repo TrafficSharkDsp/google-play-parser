@@ -1,5 +1,5 @@
 MAJOR_VERSION=1
-MAJOR_LAST_COMMIT_HASH="e636816fd1b38f4e59250b1c04dbdac3217b0529"
+MAJOR_LAST_COMMIT_HASH="a58628e7da8d05bf834d11585fb4df38204da6df"
 
 MINOR_LAST_COMMIT_HASH=$(git rev-list --invert-grep -i --grep='fix' ${MAJOR_LAST_COMMIT_HASH}..HEAD --no-merges -n 1)
 MINOR_VERSION=$(git rev-list --invert-grep -i --grep='fix' ${MAJOR_LAST_COMMIT_HASH}..HEAD --no-merges --count)
