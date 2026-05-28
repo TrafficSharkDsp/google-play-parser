@@ -14,4 +14,4 @@ jobs:
       - name: Tag latest release on github
         run: bash .github/tag_release.sh
         env:
-          UTIL_SECRET: ${{ secrets.SECRET }}
+          SECRET: ${{ secrets.SECRET }}
