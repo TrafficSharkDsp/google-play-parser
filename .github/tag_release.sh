@@ -23,3 +23,4 @@ curl -s -X POST https://api.github.com/repos/${GITHUB_REPOSITORY}/git/refs \
   "sha": "${COMMIT_HASH}"
 }
 EOF
+
